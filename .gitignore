@@ -1,0 +1,42 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 敏感信息
+*.env
+*.key
+*.pem
+credentials/
+
+# 大文件（考虑使用Git LFS）
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+venv/
+env/
+
+# 日志
+*.log
+logs/
